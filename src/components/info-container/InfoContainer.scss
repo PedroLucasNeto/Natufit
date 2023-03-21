@@ -1,0 +1,67 @@
+@use "../../styles/colors" as color;
+@use "../../styles/breakpoints" as *;
+
+.card-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1rem;
+
+  background-image: url("/assets/blurry-gradient-haikei.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  > h2 {
+    font-size: 3rem;
+    color: color.$green-50;
+    border-bottom: 1px solid color.$green-50;
+  }
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  justify-content: center;
+
+  gap: 1.3rem;
+  padding: 2rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+  align-items: center;
+
+  width: 20rem;
+  height: 25rem;
+
+  background-color: color.$green-50;
+  box-shadow: 1px 2px 6px rgba(color.$green-800, 0.4),
+    0 2px 6px rgba(color.$green-800, 0.4);
+
+  padding: 2rem;
+  gap: 1rem;
+
+  > svg {
+    font-size: 2rem;
+  }
+
+  > h2 {
+    font-size: 2rem;
+    color: color.$green-700;
+  }
+
+  > p {
+    font-size: 1.5rem;
+    color: color.$green-800;
+  }
+
+  &:hover {
+    box-shadow: 6px 6px 6px (color.$green-800), 0 2px 6px (color.$green-800);
+  }
+}
