@@ -22,34 +22,40 @@ const ProductsBanner = () => {
         <SwiperSlide>
           <div className="banner">
             <img src="/assets/banners/seasoning.jpg" alt="" />
-            <h2>Muitas Opções</h2>
-            <p>
-              Transforme sua cozinha em uma verdadeira aventura gastronômica com
-              nossa variedade de temperos!
-            </p>
+            <div className="text-div">
+              <h2>Variedade</h2>
+              <p>
+                Transforme sua cozinha em uma verdadeira aventura gastronômica
+                com nossa variedade de temperos!
+              </p>
+            </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="banner">
+            <div className="text-div">
+              <h2>Produtos Naturais</h2>
+              <p>
+                Descubra o poder da natureza em cada produto! Experimente nossos
+                produtos e sinta a diferença no seu paladar.
+              </p>
+            </div>
             <img src="/assets/banners/ingredientes.jpg" alt="" />
-            <h2>Produtos Naturais</h2>
-            <p>
-              Descubra o poder da natureza em cada produto! Experimente nossos
-              produtos naturais e sinta a diferença no seu paladar.
-            </p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="banner">
-            <img src="/assets/banners/market.jpg" alt="" />
-            <h2>Atacado </h2>
-            <p>
-              Economize comprando no atacado! Tenha acesso a preços mais baixos
-              e abasteça seu estoque com nossos produtos.
-            </p>
+            <img src="/assets/banners/vegetables.jpg" alt="" />
+            <div className="text-div">
+              <h2 className="text-dark">Atacado </h2>
+              <p color="text-dark">
+                Economize comprando no atacado! Tenha acesso a preços mais
+                baixos e abasteça seu estoque com nossos produtos.
+              </p>
+              <a href="">Entre em Contato!</a>
+            </div>
           </div>
         </SwiperSlide>
-        ...
       </Swiper>
     </section>
   );
