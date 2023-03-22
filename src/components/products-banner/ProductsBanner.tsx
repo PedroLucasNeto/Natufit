@@ -12,6 +12,7 @@ const ProductsBanner = () => {
         spaceBetween={50}
         slidesPerView={1}
         loop={true}
+        speed={1200}
         navigation={true}
         autoplay={{
           delay: 4000,
