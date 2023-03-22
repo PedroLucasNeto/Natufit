@@ -45,8 +45,7 @@ const ProductsBanner = () => {
             <h2>Atacado </h2>
             <p>
               Economize comprando no atacado! Tenha acesso a preços mais baixos
-              e aproveite para abastecer seu estoque com nossos produtos de
-              qualidade.
+              e abasteça seu estoque com nossos produtos.
             </p>
           </div>
         </SwiperSlide>
