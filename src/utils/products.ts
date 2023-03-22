@@ -102,7 +102,7 @@ export const products = [
     description: "",
   },
   {
-    name: "Sal Rosa do Himalaia",
+    name: "Sal Rosa do Himaláia",
     price: 1,
     picture: "/assets/products/sal-rosa-do-himalaia.png",
     description: "",
