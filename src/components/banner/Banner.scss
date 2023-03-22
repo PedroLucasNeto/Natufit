@@ -25,27 +25,35 @@
   flex-direction: column;
   margin-top: 5rem;
 
+  background-color: rgba(color.$green-50, 0.4);
+
   height: 22rem;
 }
 
 .banner-titles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
   padding: 2rem;
   margin-top: -5rem;
   position: absolute;
   padding: 1rem;
 
-  > h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  gap: 0.3rem;
 
+  > h1 {
+    // border: 1px solid color.$green-900;
+    padding: 0.5rem 2rem;
     font-size: 3rem;
-    color: color.$green-900;
+    color: color.$green-800;
   }
   > p {
+    // border: 1px solid color.$green-900;
     font-size: 2rem;
-    color: color.$green-900;
+    padding: 0.5rem 2rem;
+    color: color.$green-800;
   }
 }
 

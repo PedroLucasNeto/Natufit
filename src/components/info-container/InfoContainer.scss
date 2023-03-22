@@ -9,14 +9,17 @@
 
   padding: 1rem;
 
+  padding-top: 3rem;
+
   background-image: url("/assets/blurry-gradient-haikei.png");
   background-repeat: no-repeat;
   background-size: cover;
 
   > h2 {
+    margin-bottom: 3rem;
     font-size: 3rem;
-    color: color.$green-50;
-    border-bottom: 1px solid color.$green-50;
+    color: color.$green-900;
+    border-bottom: 1px solid color.$green-900;
   }
 }
 .card-container {
