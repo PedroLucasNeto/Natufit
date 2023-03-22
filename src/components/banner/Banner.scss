@@ -25,7 +25,7 @@
   flex-direction: column;
   margin-top: 5rem;
 
-  background-color: rgba(color.$green-50, 0.4);
+  background-color: rgba(color.$green-900, 0.5);
 
   height: 22rem;
 }
@@ -47,13 +47,13 @@
     // border: 1px solid color.$green-900;
     padding: 0.5rem 2rem;
     font-size: 3rem;
-    color: color.$green-800;
+    color: color.$green-50;
   }
   > p {
     // border: 1px solid color.$green-900;
     font-size: 2rem;
     padding: 0.5rem 2rem;
-    color: color.$green-800;
+    color: color.$green-50;
   }
 }
 

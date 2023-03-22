@@ -18,8 +18,8 @@
   > h2 {
     margin-bottom: 3rem;
     font-size: 3rem;
-    color: color.$green-900;
-    border-bottom: 1px solid color.$green-900;
+    color: color.$green-800;
+    border-bottom: 1px solid color.$green-800;
   }
 }
 .card-container {
@@ -52,16 +52,29 @@
 
   > svg {
     font-size: 2rem;
+    color: color.$green-800;
   }
 
   > h2 {
     font-size: 2rem;
-    color: color.$green-700;
+    color: color.$green-800;
   }
 
   > p {
     font-size: 1.5rem;
-    color: color.$green-800;
+    color: color.$green-900;
+  }
+
+  > a {
+    color: color.$green-900;
+    border-radius: 0.3rem;
+
+    &:visited {
+      text-decoration: none;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   &:hover {
