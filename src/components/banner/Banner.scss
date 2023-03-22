@@ -64,6 +64,11 @@
   }
 
   .banner-container::before {
+    margin-top: 0rem;
+    height: 20rem;
+  }
+
+  .banner-container::before {
     background-position: 100% 50%;
   }
 }

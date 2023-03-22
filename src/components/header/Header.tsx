@@ -5,11 +5,11 @@ import "./Header.scss";
 const Header = () => {
   return (
     <>
-      <div className="header_container">
+      <div className="header-container">
         <NavLink to="/" end>
           <img src="public/assets/logo.png" alt="" />
         </NavLink>
-        <ul className="header_nav">
+        <ul className="header-nav">
           <li>
             <NavLink to="/" end>
               Início
@@ -21,7 +21,6 @@ const Header = () => {
           <li>
             <NavLink to="/contact">Contato</NavLink>
           </li>
-          <li></li>
         </ul>
       </div>
     </>

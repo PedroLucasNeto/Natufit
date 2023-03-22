@@ -1,7 +1,7 @@
 @use "../../styles/colors" as color;
 @use "../../styles/breakpoints" as *;
 
-.header_container {
+.header-container {
   position: fixed;
   top: 0;
   left: 0;
@@ -39,7 +39,7 @@
   }
 }
 
-.header_nav {
+.header-nav {
   display: none;
   justify-content: center;
   align-items: center;
