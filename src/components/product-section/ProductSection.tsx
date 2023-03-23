@@ -4,6 +4,7 @@ import "./ProductSection.scss";
 import { products } from "../../utils/products";
 import { TbSearch } from "react-icons/tb";
 import { motion } from "framer-motion";
+import Banner from "../banner/Banner";
 
 const ProductSection = () => {
   const [productsPerPage, setProductsPerPage] = useState(5);
@@ -42,20 +43,23 @@ const ProductSection = () => {
 
   return (
     <section className="products-section">
-      <h1>Temperos e Chás</h1>
-      <div className="search-box">
-        <input
-          type="text"
-          value={searchInput}
-          placeholder="Ex: Pimenta do reino"
-          onChange={(e) => {
-            setSearch(e.target.value);
-          }}
-        />
-        <button className="search-button">
-          <TbSearch />
-        </button>
+      <div className="banner-container">
+        <h1>Digite sua busca</h1>
+        <div className="search-box">
+          <input
+            type="text"
+            value={searchInput}
+            placeholder="Ex: Pimenta do reino"
+            onChange={(e) => {
+              setSearch(e.target.value);
+            }}
+          />
+          <button className="search-button">
+            <TbSearch />
+          </button>
+        </div>
       </div>
+
       <motion.div className="products-wrapper" variants={container}
         initial="hidden"
         animate="visible">

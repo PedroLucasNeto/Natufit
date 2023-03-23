@@ -28,6 +28,7 @@ const ProductsBanner = () => {
                 Transforme sua cozinha em uma verdadeira aventura gastronômica
                 com nossa variedade de temperos!
               </p>
+              <a href="">Conheça nossos produtos!</a>
             </div>
           </div>
         </SwiperSlide>
@@ -39,6 +40,7 @@ const ProductsBanner = () => {
                 Descubra o poder da natureza em cada produto! Experimente nossos
                 produtos e sinta a diferença no seu paladar.
               </p>
+              <a href="">Compre agora!</a>
             </div>
             <img src="/assets/banners/ingredientes.jpg" alt="" />
           </div>
