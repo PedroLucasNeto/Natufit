@@ -14,6 +14,10 @@ const ProductSection = () => {
 
   return (
     <section className="products-section">
+      <h1>Temperos e Chás</h1>
+      <div className="search-box">
+        <input type="text" placeholder="Ex: Pimenta do reino" />
+      </div>
       <div className="products-wrapper">
         {currentProducts.map((product, index) => {
           const name = product.name;
