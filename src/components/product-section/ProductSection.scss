@@ -18,12 +18,16 @@
 
   .search-box {
     display: flex;
-    flex-direction: column;
 
     align-items: center;
     justify-content: center;
 
     width: 100%;
+
+    .search-button {
+      position: relative;
+      right: 2rem;
+    }
 
     > input {
       width: 50%;

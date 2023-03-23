@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ProductCard from "../product-card/ProductCard";
 import "./ProductSection.scss";
 import { products } from "../../utils/products";
+import { TbSearch } from "react-icons/tb";
 
 const ProductSection = () => {
   const [productsPerPage, setProductsPerPage] = useState(5);
@@ -17,6 +18,9 @@ const ProductSection = () => {
       <h1>Temperos e Chás</h1>
       <div className="search-box">
         <input type="text" placeholder="Ex: Pimenta do reino" />
+        <button className="search-button">
+          <TbSearch />
+        </button>
       </div>
       <div className="products-wrapper">
         {currentProducts.map((product, index) => {
