@@ -12,6 +12,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
 
   return (
     <div className="product-card">
+      <img src={`${picture}`} alt={`picture ${name}`} />
       <h2>{name}</h2>
       <div className="details-div">
         <h3>Detalhes:</h3>
@@ -26,7 +27,6 @@ const ProductCard = ({ product }: ProductCardProps) => {
         <h3>Preço:</h3>
         <p>{`${price.toString()}0`} R$</p>
       </div>
-      <img src={`${picture}`} alt={`picture ${name}`} />
     </div>
   );
 };

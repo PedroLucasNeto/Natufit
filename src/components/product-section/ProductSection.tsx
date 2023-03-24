@@ -1,25 +1,33 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import ProductCard from "../product-card/ProductCard";
 import "./ProductSection.scss";
 import { products } from "../../utils/products";
 import { TbSearch } from "react-icons/tb";
 import { motion } from "framer-motion";
-import Banner from "../banner/Banner";
+// import Banner from "../banner/Banner";
+
+import { Swiper, SwiperSlide, } from 'swiper/react';
+import { Navigation, Pagination, Grid } from 'swiper'
+
+import 'swiper/scss';
+import 'swiper/scss/navigation';
+import 'swiper/scss/pagination';
+import 'swiper/scss/grid'
+
 
 const ProductSection = () => {
-  const [productsPerPage, setProductsPerPage] = useState(5);
-  const [currentPage, setCurrentPage] = useState(0);
+  // const [productsPerPage, setProductsPerPage] = useState(5);
+  // const [currentPage, setCurrentPage] = useState(0);
+  // const pages = Math.ceil(products.length / productsPerPage);
+  // const startIndex = currentPage * productsPerPage;
+  // const endIndex = startIndex + productsPerPage;
+  // const currentProducts = filteredProducts.slice(startIndex, endIndex);
 
   const [searchInput, setSearch] = useState("");
   const lowerSearch = searchInput.toLowerCase();
   const filteredProducts = products.filter((product) =>
     product.name.toLowerCase().includes(lowerSearch)
   );
-
-  const pages = Math.ceil(products.length / productsPerPage);
-  const startIndex = currentPage * productsPerPage;
-  const endIndex = startIndex + productsPerPage;
-  const currentProducts = filteredProducts.slice(startIndex, endIndex);
 
   const container = {
     hidden: { opacity: 1, scale: 0 },
@@ -60,19 +68,65 @@ const ProductSection = () => {
         </div>
       </div>
 
-      <motion.div className="products-wrapper" variants={container}
-        initial="hidden"
-        animate="visible">
-        {currentProducts.map((product, index) => {
+      <Swiper
+        slidesPerView={1}
+        breakpoints={{
+          360: {
+            width: 360,
+            slidesPerView: 1,
+            grid: {
+              rows: 1,
+              fill: "row",
+            }
+          },
+          768: {
+            width: 768,
+            slidesPerView: 3,
+            grid: {
+              rows: 2,
+              fill: "row",
+            }
+          },
+          992: {
+            width: 992,
+            slidesPerView: 3,
+            grid: {
+              rows: 2,
+              fill: "row",
+            }
+          },
+          1200: {
+            width: 1200,
+            slidesPerView: 3,
+            grid: {
+              rows: 2,
+              fill: "row",
+            }
+          },
+        }}
+        spaceBetween={1}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Grid, Pagination, Navigation]}
+        className="products-wrapper"
+
+      >
+        {filteredProducts.map((product, index) => {
           const name = product.name;
           const description = product.description;
           const price = product.price;
           const picture = product.picture;
           const object = { name, description, price, picture };
-          return <motion.div variants={item} key={index}><ProductCard product={object} /></motion.div>;
+          return (<SwiperSlide className="product-slide" key={index}>
+            <ProductCard product={object} />
+          </SwiperSlide>)
         })}
-      </motion.div>
-      <div className="pagination-container">
+      </Swiper>
+
+
+      {/* <div className="pagination-container">
         {Array.from(Array(pages), (item, index) => {
           return (
             <button
@@ -86,8 +140,8 @@ const ProductSection = () => {
             </button>
           );
         })}
-      </div>
-    </section>
+      </div> */}
+    </section >
   );
 };
 
