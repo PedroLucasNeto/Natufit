@@ -64,7 +64,8 @@ const ProductSection = () => {
 
       <div className="products-wrapper">
         <Swiper
-          slidesPerView={1}
+          slidesPerView={"auto"}
+          spaceBetween={0}
           breakpoints={{
             360: {
               width: 360,
@@ -92,7 +93,7 @@ const ProductSection = () => {
             },
             1200: {
               width: 1200,
-              slidesPerView: 3,
+              slidesPerView: 4,
               grid: {
                 rows: 2,
                 fill: "row",
@@ -100,7 +101,7 @@ const ProductSection = () => {
             },
             1440: {
               width: 1440,
-              slidesPerView: 3,
+              slidesPerView: 5,
               grid: {
                 rows: 2,
                 fill: "row",
@@ -108,14 +109,13 @@ const ProductSection = () => {
             },
             2560: {
               width: 2560,
-              slidesPerView: 5,
+              slidesPerView: 7,
               grid: {
                 rows: 2,
                 fill: "row",
               },
             },
           }}
-          spaceBetween={1}
           pagination={{
             clickable: true,
           }}

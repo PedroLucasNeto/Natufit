@@ -18,9 +18,12 @@
 .products-wrapper {
   width: 100%;
 
-  @include sm {
-    // padding: 1rem;
-    overflow: hidden;
+  @include xl {
+    width: 80%;
+  }
+
+  @include x2l {
+    width: 60%;
   }
 
   .product-slide {
