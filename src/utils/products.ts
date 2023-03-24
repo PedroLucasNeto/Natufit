@@ -4,7 +4,7 @@ export const products = [
     price: 5.5,
     picture: "/assets/products/acafrao.png",
     description:
-      "O açafrão é extraído dos estigmas da flor Crocus sativus e possui propriedades antioxidantes e anti-inflamatórias, sendo utilizado em diversos pratos como arroz, risotos, sopas e até mesmo em doces. O texto também convida os clientes a comprarem açafrão de alta qualidade em sua loja.",
+      "O açafrão é extraído dos estigmas da flor Crocus sativus e possui propriedades antioxidantes e anti-inflamatórias, sendo utilizado em diversos pratos como arroz, risotos, sopas e até mesmo em doces.",
   },
   {
     name: "Alho Granulado",
