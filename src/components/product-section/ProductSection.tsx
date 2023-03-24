@@ -3,7 +3,6 @@ import ProductCard from "../product-card/ProductCard";
 import "./ProductSection.scss";
 import { products } from "../../utils/products";
 import { TbSearch } from "react-icons/tb";
-import { breakpoints } from "../../utils/swiper-breakpoint";
 import { motion } from "framer-motion";
 // import Banner from "../banner/Banner";
 
