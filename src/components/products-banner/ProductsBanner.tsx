@@ -4,6 +4,7 @@ import "swiper/scss";
 import "swiper/scss/navigation";
 import "swiper/scss/pagination";
 import "./ProductsBanner.scss";
+import { Link } from "react-router-dom";
 
 const ProductsBanner = () => {
   return (
@@ -28,7 +29,7 @@ const ProductsBanner = () => {
                 Transforme sua cozinha em uma verdadeira aventura gastronômica
                 com nossa variedade de temperos!
               </p>
-              <a href="">Conheça nossos produtos!</a>
+              <Link to="/products">Conheça nossos produtos!</Link>
             </div>
           </div>
         </SwiperSlide>
@@ -40,7 +41,7 @@ const ProductsBanner = () => {
                 Descubra o poder da natureza em cada produto! Experimente nossos
                 produtos e sinta a diferença no seu paladar.
               </p>
-              <a href="">Compre agora!</a>
+              <Link to="/products">Compre agora!</Link>
             </div>
             <img src="/assets/banners/ingredientes.jpg" alt="" />
           </div>
@@ -54,7 +55,7 @@ const ProductsBanner = () => {
                 Economize comprando no atacado! Tenha acesso a preços mais
                 baixos e abasteça seu estoque com nossos produtos.
               </p>
-              <a href="">Entre em Contato!</a>
+              <Link to="/contact">Entre em Contato!</Link>
             </div>
           </div>
         </SwiperSlide>

@@ -55,15 +55,16 @@
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    > button {
-      text-align: left;
-      color: color.$green-900;
+  }
+}
 
-      &:hover {
-        color: color.$green-400;
-        text-decoration: underline;
-      }
-    }
+.open-close {
+  text-align: left;
+  color: color.$green-900;
+
+  &:hover {
+    color: color.$green-400;
+    text-decoration: underline;
   }
 }
 

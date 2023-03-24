@@ -63,8 +63,12 @@
     > a {
       color: color.$green-50;
       text-decoration: underline;
+      &:hover {
+        color: color.$green-500;
+      }
       :visited {
         color: color.$green-50;
+        text-decoration: none;
       }
     }
     @include sm {
@@ -77,14 +81,6 @@
       > p {
         font-size: 1.5rem;
         color: color.$green-50;
-      }
-
-      > a {
-        color: color.$green-50;
-        text-decoration: underline;
-        :visited {
-          color: color.$green-50;
-        }
       }
     }
 
