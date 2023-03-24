@@ -3,6 +3,7 @@ import ProductCard from "../product-card/ProductCard";
 import "./ProductSection.scss";
 import { products } from "../../utils/products";
 import { TbSearch } from "react-icons/tb";
+import { breakpoints } from "../../utils/swiper-breakpoint";
 import { motion } from "framer-motion";
 // import Banner from "../banner/Banner";
 
@@ -16,12 +17,6 @@ import 'swiper/scss/grid'
 
 
 const ProductSection = () => {
-  // const [productsPerPage, setProductsPerPage] = useState(5);
-  // const [currentPage, setCurrentPage] = useState(0);
-  // const pages = Math.ceil(products.length / productsPerPage);
-  // const startIndex = currentPage * productsPerPage;
-  // const endIndex = startIndex + productsPerPage;
-  // const currentProducts = filteredProducts.slice(startIndex, endIndex);
 
   const [searchInput, setSearch] = useState("");
   const lowerSearch = searchInput.toLowerCase();
@@ -68,79 +63,81 @@ const ProductSection = () => {
         </div>
       </div>
 
-      <Swiper
-        slidesPerView={1}
-        breakpoints={{
-          360: {
-            width: 360,
-            slidesPerView: 1,
-            grid: {
-              rows: 1,
-              fill: "row",
-            }
-          },
-          768: {
-            width: 768,
-            slidesPerView: 3,
-            grid: {
-              rows: 2,
-              fill: "row",
-            }
-          },
-          992: {
-            width: 992,
-            slidesPerView: 3,
-            grid: {
-              rows: 2,
-              fill: "row",
-            }
-          },
-          1200: {
-            width: 1200,
-            slidesPerView: 3,
-            grid: {
-              rows: 2,
-              fill: "row",
-            }
-          },
-        }}
-        spaceBetween={1}
-        pagination={{
-          clickable: true,
-        }}
-        navigation={true}
-        modules={[Grid, Pagination, Navigation]}
-        className="products-wrapper"
+      <div className="products-wrapper">
+        <Swiper
+          slidesPerView={1}
+          breakpoints={{
+            360: {
+              width: 360,
+              slidesPerView: 1,
+              grid: {
+                rows: 1,
+                fill: "row",
+              },
+            },
+            768: {
+              width: 768,
+              slidesPerView: 3,
+              grid: {
+                rows: 2,
+                fill: "row",
+              },
+            },
+            992: {
+              width: 992,
+              slidesPerView: 3,
+              grid: {
+                rows: 2,
+                fill: "row",
+              },
+            },
+            1200: {
+              width: 1200,
+              slidesPerView: 3,
+              grid: {
+                rows: 2,
+                fill: "row",
+              },
+            },
+            1440: {
+              width: 1440,
+              slidesPerView: 3,
+              grid: {
+                rows: 2,
+                fill: "row",
+              },
+            },
+            2560: {
+              width: 2560,
+              slidesPerView: 5,
+              grid: {
+                rows: 2,
+                fill: "row",
+              },
+            },
+          }}
+          spaceBetween={1}
+          pagination={{
+            clickable: true,
+          }}
+          navigation={true}
+          modules={[Grid, Pagination, Navigation]}
 
-      >
-        {filteredProducts.map((product, index) => {
-          const name = product.name;
-          const description = product.description;
-          const price = product.price;
-          const picture = product.picture;
-          const object = { name, description, price, picture };
-          return (<SwiperSlide className="product-slide" key={index}>
-            <ProductCard product={object} />
-          </SwiperSlide>)
-        })}
-      </Swiper>
 
+        >
+          {filteredProducts.map((product, index) => {
+            const name = product.name;
+            const description = product.description;
+            const price = product.price;
+            const picture = product.picture;
+            const object = { name, description, price, picture };
+            return (<SwiperSlide className="product-slide" key={index}>
+              <ProductCard product={object} />
+            </SwiperSlide>)
+          })}
+        </Swiper>
+      </div>
 
-      {/* <div className="pagination-container">
-        {Array.from(Array(pages), (item, index) => {
-          return (
-            <button
-              className="pagination"
-              key={index}
-              onClick={() => setCurrentPage(index)}
-            >
-              <span className={currentPage === index ? "active" : ""}>
-                {index + 1}
-              </span>
-            </button>
-          );
-        })}
-      </div> */}
     </section >
   );
 };

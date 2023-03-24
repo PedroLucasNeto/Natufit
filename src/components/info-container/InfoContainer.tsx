@@ -4,7 +4,7 @@ import { TbStar, TbShoppingCartPlus, TbShieldCheck } from "react-icons/tb";
 const InfoContainer = () => {
   return (
     <section className="card-section">
-      <h2>Nossa marca oferece :</h2>
+      <h2>Na Natufit temos :</h2>
       <div className="card-container">
         <div className="card">
           <h2>Variedade</h2>

@@ -16,7 +16,12 @@
 }
 
 .products-wrapper {
-  padding: 2rem;
+  width: 100%;
+
+  @include sm {
+    padding: 1rem;
+    overflow: hidden;
+  }
 
   .product-slide {
     height: calc((100% - 30px) / 2) !important;
