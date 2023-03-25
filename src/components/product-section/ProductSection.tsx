@@ -2,7 +2,7 @@ import { useState } from "react";
 import ProductCard from "../product-card/ProductCard";
 import "./ProductSection.scss";
 import { products } from "../../utils/products";
-import { TbSearch } from "react-icons/tb";
+import { TbSearch, TbZoomExclamation } from "react-icons/tb";
 import { motion } from "framer-motion";
 import Pagination from "../shared/pagination/Pagination";
 import { Product } from "../../types/Product";
@@ -21,8 +21,6 @@ const ProductSection = () => {
   const startIndex = currentPage * productsPerPage;
   const endIndex = startIndex + productsPerPage;
   const currentProducts = filteredProducts.slice(startIndex, endIndex);
-
-  console.log(currentProducts);
 
   const container = {
     hidden: { opacity: 1, scale: 0 },
@@ -43,7 +41,7 @@ const ProductSection = () => {
       opacity: 1,
     },
   };
-  console.log(currentPage);
+  console.log(currentProducts);
 
   return (
     <section className="products-section">
@@ -69,18 +67,29 @@ const ProductSection = () => {
         variants={container}
         initial="hidden"
         animate="visible">
-        {currentProducts.map((product, index) => {
-          const name = product.name;
-          const description = product.description;
-          const price = product.price;
-          const picture = product.picture;
-          const object = { name, description, price, picture };
-          return (
-            <motion.div key={index} variants={item}>
-              <ProductCard key={index} product={object} />
-            </motion.div>
-          );
-        })}
+        {currentProducts.length === 0 ? (
+          <div className="no-products">
+            <TbZoomExclamation />
+            <h2>
+              Desculpe não foi possível encontrar tempeiros com esse nome no nosso banco
+              de dados.
+              <br /> Por favor confira a busca e tente novamente!
+            </h2>
+          </div>
+        ) : (
+          currentProducts.map((product, index) => {
+            const name = product.name;
+            const description = product.description;
+            const price = product.price;
+            const picture = product.picture;
+            const object = { name, description, price, picture };
+            return (
+              <motion.div key={index} variants={item}>
+                <ProductCard key={index} product={object} />
+              </motion.div>
+            );
+          })
+        )}
       </motion.div>
       <Pagination pages={pages} setCurrentPage={setCurrentPage} />
     </section>
