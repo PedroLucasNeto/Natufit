@@ -1,0 +1,12 @@
+@use "../../../styles/colors" as color;
+@use "../../../styles/breakpoints" as *;
+
+.pagination-container {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.pagination-button {
+  color: color.$green-500;
+}

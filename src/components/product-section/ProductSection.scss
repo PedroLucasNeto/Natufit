@@ -16,20 +16,19 @@
 }
 
 .products-wrapper {
-  width: 100%;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
 
   @include xl {
-    width: 80%;
-  }
-
-  @include x2l {
-    width: 60%;
+    padding: 2rem;
   }
 
   .product-slide {
-    height: calc((100% - 30px) / 2) !important;
     background-color: transparent;
-    height: 20rem;
     padding: 2rem;
   }
 }

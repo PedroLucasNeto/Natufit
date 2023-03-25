@@ -18,16 +18,15 @@ const ProductsBanner = () => {
           delay: 4000,
           disableOnInteraction: false,
         }}
-        modules={[Autoplay, Navigation]}
-      >
+        modules={[Autoplay, Navigation]}>
         <SwiperSlide>
           <div className="banner">
             <img src="/assets/banners/seasoning.jpg" alt="" />
             <div className="text-div">
               <h2>Variedade</h2>
               <p>
-                Transforme sua cozinha em uma verdadeira aventura gastronômica
-                com nossa variedade de temperos!
+                Transforme sua cozinha em uma verdadeira aventura gastronômica com nossa
+                variedade de temperos!
               </p>
               <Link to="/products">Conheça nossos produtos!</Link>
             </div>
@@ -38,8 +37,8 @@ const ProductsBanner = () => {
             <div className="text-div">
               <h2>Produtos Naturais</h2>
               <p>
-                Descubra o poder da natureza em cada produto! Experimente nossos
-                produtos e sinta a diferença no seu paladar.
+                Descubra o poder da natureza em cada produto! Experimente nossos produtos
+                e sinta a diferença no seu paladar.
               </p>
               <Link to="/products">Compre agora!</Link>
             </div>
@@ -52,8 +51,8 @@ const ProductsBanner = () => {
             <div className="text-div">
               <h2 className="text-dark">Atacado </h2>
               <p color="text-dark">
-                Economize comprando no atacado! Tenha acesso a preços mais
-                baixos e abasteça seu estoque com nossos produtos.
+                Economize comprando no atacado! Tenha acesso a preços mais baixos e
+                abasteça seu estoque com nossos produtos.
               </p>
               <Link to="/contact">Entre em Contato!</Link>
             </div>
