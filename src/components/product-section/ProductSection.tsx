@@ -22,6 +22,8 @@ const ProductSection = () => {
   const endIndex = startIndex + productsPerPage;
   const currentProducts = filteredProducts.slice(startIndex, endIndex);
 
+  console.log(currentProducts);
+
   const container = {
     hidden: { opacity: 1, scale: 0 },
     visible: {
@@ -54,6 +56,7 @@ const ProductSection = () => {
             placeholder="Ex: Pimenta do reino"
             onChange={(e) => {
               setSearch(e.target.value);
+              setCurrentPage(0);
             }}
           />
           <button className="search-button">
