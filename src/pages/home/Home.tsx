@@ -7,8 +7,8 @@ import "./Home.scss";
 const Home = () => {
   return (
     <div className="home">
-      <ProductsBanner />
       <InfoContainer />
+      {/* <ProductsBanner /> */}
     </div>
   );
 };
