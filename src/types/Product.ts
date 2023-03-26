@@ -1,6 +1,6 @@
 export interface Product {
-  name: String;
-  price: Number;
-  picture: String;
-  description: String;
+  name: string;
+  price: number;
+  picture: string;
+  description: string;
 }
