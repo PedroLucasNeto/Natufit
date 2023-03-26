@@ -22,9 +22,15 @@
   justify-content: space-between;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 1.5rem;
 
   @include xl {
+    width: 90%;
+    padding: 2rem;
+  }
+
+  @include x2l {
+    width: 60%;
     padding: 2rem;
   }
 

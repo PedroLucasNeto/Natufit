@@ -105,7 +105,7 @@ export const products = [
       "O orégano é uma erva aromática muito utilizada na culinária mediterrânea e latino-americana, especialmente em pratos com tomate, carne, frango, peixe e massas. Ele tem um sabor característico e levemente amargo, que pode variar de acordo com a região de cultivo e as condições climáticas. O orégano é uma fonte rica de antioxidantes e possui propriedades anti-inflamatórias, podendo trazer benefícios para a saúde.",
   },
   {
-    name: "Paprica Defumada",
+    name: "Páprica Defumada",
     price: 5.5,
     picture: "/assets/products/paprica-defumada.png",
     description:

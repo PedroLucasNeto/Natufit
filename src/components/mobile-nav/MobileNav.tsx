@@ -1,6 +1,5 @@
-
-import { NavLink } from "react-router-dom"
-import "./MobileNav.scss"
+import { NavLink } from "react-router-dom";
+import "./MobileNav.scss";
 
 interface MobileNavProps {
   isOpened: boolean;
@@ -18,15 +17,19 @@ const MobileNav = ({ isOpened, openCloseNav }: MobileNavProps) => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/products" onClick={() => openCloseNav(!isOpened)} >Produtos</NavLink>
+            <NavLink to="/products" onClick={() => openCloseNav(!isOpened)}>
+              Produtos
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/contact" onClick={() => openCloseNav(!isOpened)} >Contato</NavLink>
+            <NavLink to="/contact" onClick={() => openCloseNav(!isOpened)}>
+              Contato
+            </NavLink>
           </li>
         </ul>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default MobileNav
+export default MobileNav;

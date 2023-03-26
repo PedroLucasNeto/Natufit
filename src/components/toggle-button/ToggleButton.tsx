@@ -10,8 +10,7 @@ const ToggleButton = ({ isActive, onToggle }: ToggleButtonProps) => {
     <span
       id="toggleButton"
       className={isActive ? "toggle_button toggle_active" : "toggle_button"}
-      onClick={() => onToggle(!isActive)}
-    >
+      onClick={() => onToggle(!isActive)}>
       <span></span>
       <span></span>
       <span></span>

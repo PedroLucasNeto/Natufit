@@ -10,6 +10,7 @@ import { Product } from "../../types/Product";
 const ProductSection = () => {
   const [searchInput, setSearch] = useState("");
   const lowerSearch = searchInput.toLowerCase();
+
   const filteredProducts = products.filter((product) =>
     product.name.toLowerCase().includes(lowerSearch)
   );
@@ -41,7 +42,6 @@ const ProductSection = () => {
       opacity: 1,
     },
   };
-  console.log(currentProducts);
 
   return (
     <section className="products-section">
@@ -71,8 +71,8 @@ const ProductSection = () => {
           <div className="no-products">
             <TbZoomExclamation />
             <h2>
-              Desculpe não foi possível encontrar tempeiros com esse nome no nosso banco
-              de dados.
+              Desculpe não foi possível encontrar temperos com esse nome no nosso banco de
+              dados.
               <br /> Por favor confira a busca e tente novamente!
             </h2>
           </div>
@@ -91,7 +91,11 @@ const ProductSection = () => {
           })
         )}
       </motion.div>
-      <Pagination pages={pages} setCurrentPage={setCurrentPage} />
+      <Pagination
+        pages={pages}
+        setCurrentPage={setCurrentPage}
+        currentPage={currentPage}
+      />
     </section>
   );
 };
