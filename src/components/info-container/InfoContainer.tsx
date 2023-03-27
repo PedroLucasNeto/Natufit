@@ -5,12 +5,14 @@ import InfoCard from "../info-card/InfoCard";
 
 const InfoContainer = () => {
   return (
-    <section className="card-section">
+    <>
       <Banner />
-      {companyValues.map((value, index) => {
-        return <InfoCard key={index} index={index} companyValue={value} />;
-      })}
-    </section>
+      <section className="card-section">
+        {companyValues.map((value, index) => {
+          return <InfoCard key={index} index={index} companyValue={value} />;
+        })}
+      </section>
+    </>
   );
 };
 
