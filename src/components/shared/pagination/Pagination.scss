@@ -3,9 +3,19 @@
 
 .pagination-container {
   display: flex;
+
+  justify-content: center;
+  align-items: center;
+
   gap: 1rem;
-  margin-bottom: 1rem;
-  font-size: 1.2rem;
+
+  padding: 0.5rem 1rem;
+  font-size: 1.3rem;
+  font-weight: 900;
+
+  background-color: color.$green-50;
+
+  border: solid 1px color.$green-500;
 }
 
 .pagination-button {

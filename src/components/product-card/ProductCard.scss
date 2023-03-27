@@ -5,9 +5,13 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
   gap: 1rem;
+
   width: 15rem;
   min-height: 22rem;
+
+  background-color: color.$green-50;
 
   @include lg {
     width: 20rem;
