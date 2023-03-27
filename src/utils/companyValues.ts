@@ -10,7 +10,7 @@ export const companyValues = [
     title: "Cuidado",
     description:
       "Utilizamos apenas ingredientes naturais, sem adição de conservantes ou corantes artificiais, o que contribui para torná-los ainda mais saudáveis e saborosos.",
-    video: "test",
+    video: "/assets/videos/caring.mp4",
     button: "Confira",
   },
   {
