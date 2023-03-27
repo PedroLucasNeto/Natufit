@@ -10,7 +10,11 @@
   align-items: center;
 
   gap: 1.3rem;
-  padding: 0.1rem;
+  padding: 2rem;
+
+  border-radius: 0.5rem;
+
+  background-color: rgba(color.$green-900, 0.6);
 
   > video {
     width: 100%;
