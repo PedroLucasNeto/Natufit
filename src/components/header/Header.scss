@@ -14,7 +14,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: color.$green-50;
+  background-color: color.$green-400;
 
   font-size: 1.3rem;
 
@@ -23,7 +23,7 @@
   }
 
   > h1 {
-    color: color.$green-900;
+    // color: color.$green-900;
     font-size: 1.5rem;
   }
 
@@ -44,7 +44,7 @@
   gap: 1.5rem;
 
   a {
-    color: color.$green-500;
+    color: color.$green-50;
   }
 
   > li {
@@ -55,7 +55,7 @@
       content: " ";
       display: block;
       transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-      border-bottom: 2px solid color.$green-500;
+      border-bottom: 2px solid color.$green-50;
 
       transform: scaleX(0);
     }
