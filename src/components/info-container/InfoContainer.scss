@@ -11,22 +11,5 @@
 
   gap: 2rem;
 
-  width: 100%;
-
-  background-image: url("/assets/variedades-doodle.png");
-  background-repeat: repeat;
-  background-size: 60%;
-
-  > h2 {
-    margin-bottom: 3rem;
-    font-size: 2.3rem;
-    color: color.$green-800;
-    border-bottom: 1px solid color.$green-800;
-  }
-
-  @include sm {
-    > h2 {
-      font-size: 5rem;
-    }
-  }
+  width: fit-content;
 }
