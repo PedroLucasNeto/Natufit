@@ -3,13 +3,20 @@
 
 .card-section {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 
-  padding: 1rem;
+  flex-wrap: wrap;
 
+  padding-top: 2rem;
   gap: 2rem;
 
-  width: fit-content;
+  width: 100%;
+}
+
+.cards-title {
+  > h1 {
+    font-size: 3rem;
+    color: color.$green-700;
+  }
 }

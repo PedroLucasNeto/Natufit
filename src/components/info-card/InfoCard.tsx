@@ -12,15 +12,12 @@ interface InfoCardProps {
 
 const InfoCard = ({ companyValue, index }: InfoCardProps) => {
   return (
-    <div className={index % 2 == 0 ? `card-container` : "card-container reverse"}>
+    <div key={index} className={`card-container`}>
       <div className="card">
         <h2>{companyValue.title}</h2>
         <p>{companyValue.description}</p>
         <Link to={"/products"}>{companyValue.button}</Link>
       </div>
-      <video controls>
-        <source src={companyValue.video} type="video/mp4" />
-      </video>
     </div>
   );
 };

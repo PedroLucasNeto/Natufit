@@ -10,33 +10,7 @@
   align-items: center;
 
   gap: 1.3rem;
-  padding: 2rem;
-
-  border-radius: 0.5rem;
-  background-image: url("/assets/variedades-doodle.png");
-  background-size: 40%;
-
-  > video {
-    width: 100%;
-    height: fit-content;
-  }
-
-  @include sm {
-    > video {
-      width: 400px;
-    }
-  }
-  @include md {
-    > video {
-      width: 500px;
-    }
-  }
-
-  @include lg {
-    > video {
-      width: 600px;
-    }
-  }
+  // padding: 2rem;
 }
 
 .card {
@@ -47,40 +21,41 @@
   align-items: center;
 
   width: 20rem;
-  height: 25rem;
+  height: 22rem;
 
-  background-color: color.$green-50;
-  box-shadow: 1px 2px 6px rgba(color.$green-800, 0.4),
-    0 2px 6px rgba(color.$green-800, 0.4);
+  border-radius: 0.3rem;
+
+  background-color: color.$green-500;
+  box-shadow: 5px 2px 5px rgba(color.$green-900, 0.7);
 
   padding: 2rem;
   gap: 1rem;
 
   > svg {
     font-size: 2rem;
-    color: color.$green-800;
+    color: white;
   }
 
   > h2 {
     font-size: 2rem;
-    color: color.$green-800;
+    color: white;
   }
 
   > p {
     font-size: 1.5rem;
-    color: color.$green-900;
+    color: white;
   }
 
   > a {
     font-size: 1.2rem;
-    color: color.$green-900;
+    color: white;
     border-radius: 0.3rem;
-
+    text-decoration: underline;
     &:visited {
       text-decoration: none;
     }
     &:hover {
-      text-decoration: underline;
+      color: color.$green-900;
     }
   }
 
