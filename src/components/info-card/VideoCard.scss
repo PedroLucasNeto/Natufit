@@ -6,7 +6,7 @@
   // object-fit: cover;
 
   > video {
-    width: 100%;
+    width: 20rem;
   }
 
   border-radius: 0.1rem;
@@ -17,17 +17,18 @@
   padding: 1rem;
 
   @include sm {
+    // width: 20rem;
   }
 
   @include md {
-    width: 70%;
+    // width: 50%;
   }
 
   @include lg {
-    width: 60%;
+    // width: 60%;
   }
 
   @include xl {
-    width: 50%;
+    // width: 50%;
   }
 }
