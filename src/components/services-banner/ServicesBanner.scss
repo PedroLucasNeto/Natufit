@@ -112,11 +112,9 @@
 }
 
 @include x2l {
-  .services-banner {
-    width: 60%;
-  }
-
   .text-div {
-    height: 30rem;
+    padding-left: 8rem;
+
+    gap: 3rem;
   }
 }

@@ -1,10 +1,10 @@
-import "./CardsSection.scss";
+import "./VideosSection.scss";
 
 import InfoCard from "../info-card/InfoCard";
 
 import { videos } from "../../utils/videos";
 
-const CardsSection = () => {
+const VideosSection = () => {
   return (
     <section className="card-section">
       <div className="card-section">
@@ -16,4 +16,4 @@ const CardsSection = () => {
   );
 };
 
-export default CardsSection;
+export default VideosSection;
