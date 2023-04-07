@@ -1,69 +1,33 @@
 @use "../../styles/colors" as color;
 @use "../../styles/breakpoints" as *;
 
-.card-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-
-  justify-content: center;
-  align-items: center;
-
-  gap: 1.3rem;
-  // padding: 2rem;
-}
-
 .card {
-  display: flex;
-  flex-direction: column;
+  // display: flex;
+  // object-fit: cover;
 
-  justify-content: space-between;
-  align-items: center;
+  > video {
+    width: 100%;
+  }
 
-  width: 20rem;
-  height: 22rem;
+  border-radius: 0.1rem;
 
-  border-radius: 0.3rem;
-
-  background-color: color.$green-500;
+  background-color: color.$green-800;
   box-shadow: 5px 2px 5px rgba(color.$green-900, 0.7);
 
-  padding: 2rem;
-  gap: 1rem;
+  padding: 1rem;
 
-  > svg {
-    font-size: 2rem;
-    color: white;
+  @include sm {
   }
 
-  > h2 {
-    font-size: 2rem;
-    color: white;
+  @include md {
+    width: 70%;
   }
 
-  > p {
-    font-size: 1.5rem;
-    color: white;
+  @include lg {
+    width: 60%;
   }
 
-  > a {
-    font-size: 1.2rem;
-    color: white;
-    border-radius: 0.3rem;
-    text-decoration: underline;
-    &:visited {
-      text-decoration: none;
-    }
-    &:hover {
-      color: color.$green-900;
-    }
+  @include xl {
+    width: 50%;
   }
-
-  &:hover {
-    box-shadow: 6px 6px 6px (color.$green-800), 0 2px 6px (color.$green-800);
-  }
-}
-
-.reverse {
-  flex-direction: row-reverse;
 }

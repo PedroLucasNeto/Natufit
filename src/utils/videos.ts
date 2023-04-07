@@ -1,14 +1,14 @@
 export const videos = [
   {
-    description: "Variedade",
-    link: "/assets/videos/quality.mp4",
+    description: "Arroz Supremo",
+    link: "/assets/videos/arroz-supremo.mp4",
   },
   {
-    description: "Cuidado",
-    video: "/assets/videos/caring.mp4",
+    description: "Natural",
+    link: "/assets/videos/natural.mp4",
   },
   {
-    description: "Qualidade",
-    video: "/assets/videos/quality.mp4",
+    description: "Chicken",
+    link: "/assets/videos/chicken.mp4",
   },
 ];

@@ -1,0 +1,36 @@
+@use "../../styles/colors" as color;
+@use "../../styles/breakpoints" as *;
+
+.card-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1rem;
+
+  background-color: color.$green-400;
+
+  gap: 1rem;
+
+  width: 100%;
+
+  // @include sm {
+  // }
+
+  // @include md {
+  //   width: 90%;
+  // }
+
+  // @include lg {
+  //   width: 95%;
+  // }
+
+  // @include xl {
+  //   width: 90%;
+  // }
+
+  // @include x2l {
+  //   width: 60%;
+  // }
+}

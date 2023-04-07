@@ -1,0 +1,6 @@
+@use "../../styles/colors" as color;
+@use "../../styles/breakpoints" as *;
+
+.transition-section {
+  background-color: color.$green-50;
+}
