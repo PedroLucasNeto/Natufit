@@ -3,14 +3,14 @@ import { TbShieldCheck, TbShoppingCartPlus, TbStar } from "react-icons/tb";
 import { Link } from "react-router-dom";
 import { Video } from "../../types/Video";
 
-import "./InfoCard.scss";
+import "./VideoCard.scss";
 
 interface InfoCardProps {
   index: number;
   video: Video;
 }
 
-const InfoCard = ({ index, video }: InfoCardProps) => {
+const VideoCard = ({ index, video }: InfoCardProps) => {
   return (
     <div className="card">
       <video src={`${video.link}`} controls></video>
@@ -18,4 +18,4 @@ const InfoCard = ({ index, video }: InfoCardProps) => {
   );
 };
 
-export default InfoCard;
+export default VideoCard;
