@@ -1,6 +1,6 @@
 import "./VideosSection.scss";
 
-import VideoCard from "../info-card/VideoCard";
+import VideoCard from "../video-card/VideoCard";
 
 import { videos } from "../../utils/videos";
 

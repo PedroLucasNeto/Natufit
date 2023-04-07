@@ -63,11 +63,6 @@ const ProductSection = () => {
         </div>
       </div>
       <section className="products-section">
-        <Pagination
-          pages={pages}
-          setCurrentPage={setCurrentPage}
-          currentPage={currentPage}
-        />
         <motion.div
           className="products-wrapper"
           variants={container}
