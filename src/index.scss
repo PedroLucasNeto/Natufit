@@ -11,11 +11,11 @@
 }
 
 *::-webkit-scrollbar-thumb {
-  border-radius: 1px;
+  background: color.$green-800;
 }
 
 ::-webkit-scrollbar-track {
-  background: rgba(0, 0, 0, 0.2);
+  background: color.$green-400;
 }
 
 :root {
