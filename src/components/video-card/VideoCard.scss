@@ -1,8 +1,16 @@
 @use "../../styles/colors" as color;
 @use "../../styles/breakpoints" as *;
 
-.card {
-  // display: flex;
+.video-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  > h1 {
+    font-size: 2rem;
+    color: color.$green-50;
+  }
   // object-fit: cover;
 
   > video {
@@ -11,10 +19,10 @@
 
   border-radius: 0.1rem;
 
-  background-color: color.$green-800;
+  background-color: color.$green-900;
   box-shadow: 5px 2px 5px rgba(color.$green-900, 0.7);
 
-  padding: 1rem;
+  padding: 1rem 1rem 2rem 1rem;
 
   @include sm {
     // width: 20rem;
@@ -25,7 +33,12 @@
   }
 
   @include lg {
-    // width: 60%;
+    > video {
+      width: 26rem;
+    }
+    > h1 {
+      font-size: 2.5rem;
+    }
   }
 
   @include xl {

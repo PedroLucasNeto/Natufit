@@ -10,7 +10,7 @@ const CompanyValues = () => {
       <div className="values-wrapper">
         {companyValues.map((value, index) => {
           return (
-            <div className="value-card">
+            <div key={index} className="value-card">
               <h1>{value.title}</h1>
               <></>
               <p>{value.description}</p>

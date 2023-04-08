@@ -1,0 +1,84 @@
+@use "../../styles/colors" as color;
+@use "../../styles/breakpoints" as *;
+
+.main-footer {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  align-items: center;
+
+  vertical-align: middle;
+
+  padding: 1rem;
+
+  width: 100%;
+  background-color: color.$green-900;
+
+  min-height: 4rem;
+}
+
+.bottom-left {
+  color: color.$green-50;
+
+  > button {
+    animation: fade 2s infinite;
+  }
+}
+
+.bottom-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+
+  > p {
+    color: color.$green-50;
+  }
+  > a {
+    color: color.$green-400;
+
+    &:hover {
+      color: color.$green-50;
+      text-decoration: underline;
+    }
+  }
+}
+
+.bottom-right {
+  display: flex;
+  justify-content: center;
+
+  text-align: center;
+
+  vertical-align: middle;
+
+  gap: 0.5rem;
+
+  color: color.$green-50;
+
+  > li {
+    > a {
+      color: color.$green-50;
+      font-size: 1.05rem;
+
+      &:hover {
+        color: color.$green-400;
+      }
+    }
+  }
+}
+
+@keyframes fade {
+  0%,
+  100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    opacity: 1;
+  }
+}

@@ -8,18 +8,18 @@
   align-items: center;
   flex-wrap: wrap;
 
+  text-align: center;
+
   gap: 1rem;
 
   width: 100%;
 
   padding: 1rem;
 
-  // background-color: color.$green-400;
-
   > h1 {
     color: color.$green-700;
     padding: 1rem;
-    font-size: 2rem;
+    font-size: 3rem;
   }
 }
 

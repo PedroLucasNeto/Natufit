@@ -12,7 +12,8 @@ interface InfoCardProps {
 
 const VideoCard = ({ index, video }: InfoCardProps) => {
   return (
-    <div className="card">
+    <div className="video-card">
+      <h1>{video.description}</h1>
       <video src={`${video.link}`} controls></video>
     </div>
   );

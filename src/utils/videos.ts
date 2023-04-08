@@ -8,7 +8,7 @@ export const videos = [
     link: "/assets/videos/natural.mp4",
   },
   {
-    description: "Chicken",
+    description: "Frango Supremo",
     link: "/assets/videos/chicken.mp4",
   },
 ];
