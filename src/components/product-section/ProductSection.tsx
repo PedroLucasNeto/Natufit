@@ -5,7 +5,6 @@ import { products } from "../../utils/products";
 import { TbSearch, TbZoomExclamation } from "react-icons/tb";
 import { motion } from "framer-motion";
 import Pagination from "../shared/pagination/Pagination";
-import { Product } from "../../types/Product";
 
 const ProductSection = () => {
   const [searchInput, setSearch] = useState("");
