@@ -37,7 +37,7 @@
   }
 
   > p {
-    font-size: 2rem;
+    font-size: 1.3rem;
     color: color.$green-50;
   }
 }
@@ -52,4 +52,13 @@
   text-align: center;
 
   background-color: color.$green-400;
+}
+
+@include md {
+  .video-titles {
+    > p {
+      font-size: 1.7rem;
+      color: color.$green-50;
+    }
+  }
 }

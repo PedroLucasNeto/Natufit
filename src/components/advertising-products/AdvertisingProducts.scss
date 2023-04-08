@@ -1,0 +1,60 @@
+@use "../../styles/colors" as color;
+@use "../../styles/breakpoints" as *;
+
+.ad-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+
+  padding: 2rem 1rem;
+
+  gap: 1rem;
+
+  background-color: color.$green-400;
+
+  > a {
+    background-color: color.$green-50;
+
+    padding: 1rem;
+
+    font-size: 1.2rem;
+
+    font-weight: 900;
+
+    border-radius: 0.3rem;
+
+    color: color.$green-400;
+
+    border: 1px solid color.$green-50;
+
+    &:hover {
+      background-color: color.$green-400;
+      border: 1px solid color.$green-50;
+      color: color.$green-50;
+    }
+  }
+}
+
+.ad-titles {
+  max-width: 50rem;
+  > h1 {
+    font-size: 3rem;
+  }
+  > p {
+    color: color.$green-50;
+    font-size: 1.5rem;
+  }
+}
+
+@include md {
+  > h1 {
+    font-size: 3rem;
+  }
+  > p {
+    color: color.$green-50;
+    font-size: 1.5rem;
+  }
+}

@@ -45,7 +45,7 @@ const ProductSection = () => {
 
   return (
     <>
-      <div className="banner-container">
+      <div className="banner-container" id="banner-container">
         <h1>Digite sua busca</h1>
         <div className="search-box">
           <input
