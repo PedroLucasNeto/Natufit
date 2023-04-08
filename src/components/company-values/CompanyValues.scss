@@ -1,26 +1,113 @@
 @use "../../styles/colors" as color;
 @use "../../styles/breakpoints" as *;
 
-.values-wrapper {
+.values-section {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 
   gap: 1rem;
 
+  width: 100%;
+
+  padding: 1rem;
+
+  // background-color: color.$green-400;
+
+  > h1 {
+    color: color.$green-700;
+    padding: 1rem;
+    font-size: 2rem;
+  }
+}
+
+.values-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  width: 100%;
+
+  padding: 1rem;
+
+  gap: 1rem;
+
   background-color: color.$green-50;
+  background-image: url("../../../public/assets/products-doodle.png");
+  background-blend-mode: darken;
+  background-attachment: fixed;
+  background-size: cover;
+  background-size: 80%;
+
+  border: 1px solid black;
 }
 
 .value-card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  width: 20rem;
+
+  border-radius: 0.3rem;
+
+  max-width: 16rem;
+  height: 16rem;
+
+  gap: 2.3rem;
 
   padding: 1rem;
-  text-align: center;
+  text-align: left;
+  inline-size: auto;
 
-  background-color: color.$green-200;
+  box-shadow: 5px 5px 5px 1px rgba(color.$green-800, 0.7);
+
+  background-color: color.$green-50;
+
+  border: 1px solid rgba(color.$green-800, 0.1);
+
+  > h1 {
+    color: color.$green-700;
+    text-decoration: underline 1px;
+    font-size: 1.8rem;
+  }
+
+  > p {
+    color: color.$green-700;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+
+@include sm {
+  .value-card {
+  }
+  .values-section {
+  }
+  .values-wrapper {
+  }
+}
+
+@include lg {
+  .value-card {
+  }
+  .values-section {
+    > h1 {
+      font-size: 3rem;
+    }
+  }
+  .values-wrapper {
+    background-size: 50%;
+  }
+}
+
+@include xl {
+  .value-card {
+  }
+  .values-section {
+  }
+  .values-wrapper {
+    background-size: 50%;
+  }
 }

@@ -1,19 +1,23 @@
 export const companyValues = [
   {
     title: "Missão",
-    description: "Ampla variedade de produtos de alta qualidade para melhor te atender",
+    description:
+      "Oferecer produtos naturais, levando qualidade de vida, bem estar e sabor pra sua mesa. Sempre respeitando o meio ambiente.",
     image: "./assets/banners/variety.jpg",
+    icon: "<></>",
   },
   {
     title: "Visão",
-    description: "100% Naturais, sem adição de conservantes ou corantes artificiais",
-    button: "Confira",
+    description:
+      "Ser reconhecidos na indústria alimentícia por nossos produtos naturais, como uma empresa que preza pela saúde e qualidade, buscando sempre a excelência.",
     image: "./assets/banners/quality.jpg",
+    icon: "<></>",
   },
   {
     title: "Valores",
-    description: "Seguimos todos os protocolos de saúde para te garantir segurança",
-    button: "Conheça",
+    description:
+      "Responsabilidade, transparência, dedicação, honestidade, ética e respeito aos nossos clientes, colaboradores e ao desenvolvimento sustentável.",
     image: "./assets/banners/caution.jpg",
+    icon: "<></>",
   },
 ];
