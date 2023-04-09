@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Product } from "../../types/Product";
 import "./ProductCard.scss";
-import { TbBrandCashapp, TbLetterR } from "react-icons/tb";
+import { TbBrandCashapp, TbCurrencyReal, TbLetterR } from "react-icons/tb";
 
 interface ProductCardProps {
   product: Product;
@@ -21,8 +21,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
         <div className="product-info">
           <h2>{name}</h2>
           <div className="price-div">
-            <span>R</span>
-            <TbBrandCashapp />
+            <TbCurrencyReal />
             <p>{`${price.toString()}0`}</p>
           </div>
         </div>
