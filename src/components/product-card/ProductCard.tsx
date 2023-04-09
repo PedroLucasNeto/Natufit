@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Product } from "../../types/Product";
 import "./ProductCard.scss";
+import { TbBrandCashapp } from "react-icons/tb";
 
 interface ProductCardProps {
   product: Product;
@@ -13,16 +14,25 @@ const ProductCard = ({ product }: ProductCardProps) => {
 
   return (
     <div className="product-card">
-      <img src={`${picture}`} alt={`picture ${name}`} />
-      <h2>{name}</h2>
-      <button
-        className="open-close"
-        onClick={() => {
-          setMoreInfo(!moreInfo);
-        }}>
-        {moreInfo ? "Menos Informações..." : "Mais Informações..."}
-      </button>
+      <div className="product-image">
+        <img src={`${picture}`} alt={`picture ${name}`} />
+      </div>
       <div className="details-div">
+        <div className="product-info">
+          <h2>{name}</h2>
+          <div className="price-div">
+            <TbBrandCashapp />
+            <p>{`${price.toString()}0`}</p>
+          </div>
+        </div>
+
+        <button
+          className="open-close"
+          onClick={() => {
+            setMoreInfo(!moreInfo);
+          }}>
+          {moreInfo ? "Menos Informações..." : "Mais Informações..."}
+        </button>
         {moreInfo ? (
           <>
             <h3>Detalhes:</h3>
@@ -39,10 +49,6 @@ const ProductCard = ({ product }: ProductCardProps) => {
                 }}>
                 {showMore ? "Ler menos..." : "Ler mais..."}
               </button>
-            </div>
-            <div className="price-div">
-              <h3>Preço:</h3>
-              <p>{`${price.toString()}0`} R$</p>
             </div>
           </>
         ) : (
