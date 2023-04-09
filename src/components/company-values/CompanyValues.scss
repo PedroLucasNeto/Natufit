@@ -81,17 +81,17 @@
 }
 
 @include sm {
-  .value-card {
-  }
-  .values-section {
-  }
-  .values-wrapper {
-  }
+  // .value-card {
+  // }
+  // .values-section {
+  // }
+  // .values-wrapper {
+  // }
 }
 
 @include lg {
-  .value-card {
-  }
+  // .value-card {
+  // }
   .values-section {
     > h1 {
       font-size: 3rem;
@@ -103,10 +103,10 @@
 }
 
 @include xl {
-  .value-card {
-  }
-  .values-section {
-  }
+  // .value-card {
+  // }
+  // .values-section {
+  // }
   .values-wrapper {
     background-size: 50%;
   }

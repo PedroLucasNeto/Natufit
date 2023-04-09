@@ -5,7 +5,7 @@ const AdvertisingProducts = () => {
   return (
     <section className="ad-section">
       <div className="ad-titles">
-        <h1>Produtos</h1>
+        <h1>Conheça nossos Produtos</h1>
         <p>
           Não perca mais tempo sem experimentar nossos temperos. Peça agora e transforme
           suas receitas em obras de arte culinárias.
