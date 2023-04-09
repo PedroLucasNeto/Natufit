@@ -64,10 +64,11 @@
 
 .open-close {
   text-align: left;
-  color: color.$green-900;
+  color: color.$green-600;
+  text-decoration: underline;
 
   &:hover {
-    color: color.$green-400;
+    color: color.$green-300;
     text-decoration: underline;
   }
 }
@@ -81,10 +82,27 @@
   > p {
     font-size: 1rem;
   }
+
+  > span {
+    font-family: Helvetica, sans-serif;
+  }
 }
 
 .product-info {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.buy-now {
+  background-color: color.$green-400;
+  color: color.$green-50;
+  border: 1px solid color.$green-400;
+  padding: 0.5rem;
+
+  &:hover {
+    background-color: color.$green-50;
+    color: color.$green-400;
+    border: 1px solid color.$green-400;
+  }
 }

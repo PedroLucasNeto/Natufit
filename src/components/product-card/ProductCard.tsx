@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Product } from "../../types/Product";
 import "./ProductCard.scss";
-import { TbBrandCashapp } from "react-icons/tb";
+import { TbBrandCashapp, TbLetterR } from "react-icons/tb";
 
 interface ProductCardProps {
   product: Product;
@@ -21,21 +21,20 @@ const ProductCard = ({ product }: ProductCardProps) => {
         <div className="product-info">
           <h2>{name}</h2>
           <div className="price-div">
+            <span>R</span>
             <TbBrandCashapp />
             <p>{`${price.toString()}0`}</p>
           </div>
         </div>
-
         <button
           className="open-close"
           onClick={() => {
             setMoreInfo(!moreInfo);
           }}>
-          {moreInfo ? "Menos Informações..." : "Mais Informações..."}
+          {moreInfo ? "Menos Detalhes..." : "Mais Detalhes..."}
         </button>
         {moreInfo ? (
           <>
-            <h3>Detalhes:</h3>
             <div className="product-description">
               <p>
                 {showMore
@@ -55,6 +54,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
           " "
         )}
       </div>
+      <button className="buy-now">Compre Agora</button>
     </div>
   );
 };
