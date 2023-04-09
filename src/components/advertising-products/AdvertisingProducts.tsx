@@ -20,7 +20,7 @@ const AdvertisingProducts = () => {
             behavior: "smooth",
           })
         }>
-        Conhecer Produtos!
+        Saiba Mais!
       </Link>
     </section>
   );
