@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Product } from "../../types/Product";
 import "./ProductCard.scss";
-import { TbBrandCashapp, TbCurrencyReal, TbLetterR } from "react-icons/tb";
+import { TbCurrencyReal } from "react-icons/tb";
 
 interface ProductCardProps {
   product: Product;
@@ -54,7 +54,11 @@ const ProductCard = ({ product }: ProductCardProps) => {
         )}
       </div>
       <button className="buy-now">
-        <a href="">Compre Agora</a>
+        <a
+          href="https://wa.me/83991531661?text=Olá!%20Tenho%20interesse%20nos%20produtos%20natufit!%20"
+          target="_blank">
+          Compre Agora
+        </a>
       </button>
     </div>
   );
