@@ -1,0 +1,47 @@
+@use "../../styles/colors" as color;
+@use "../../styles/breakpoints" as *;
+
+.navbar {
+  position: fixed;
+  left: 0;
+
+  z-index: -1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1rem;
+
+  width: 100%;
+
+  margin-top: 17rem;
+
+  padding: 1.5rem;
+
+  border-bottom: 2px solid rgba(color.$green-400, 0.9);
+  background-color: rgba(color.$green-500, 0.5);
+  backdrop-filter: blur(4px);
+
+  transform: translateY(-20rem);
+  transition: all 0.3s ease-in-out;
+
+  > li {
+    padding: 0.25rem;
+  }
+
+  > li > a {
+    color: color.$green-50;
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+
+  @include sm {
+    display: none;
+  }
+}
+
+.opened {
+  transform: translateY(0);
+}
