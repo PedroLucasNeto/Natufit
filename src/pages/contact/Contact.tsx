@@ -2,6 +2,7 @@ import React from "react";
 import { TbBrandWhatsapp } from "react-icons/tb";
 import "./Contact.scss";
 import ContactCard from "../../components/contact-card/ContactCard";
+import { contactTypes } from "../../utils/contactTypes";
 
 const Contact = () => {
   return (
@@ -9,13 +10,15 @@ const Contact = () => {
       <div className="contact-info">
         <h2>Faça seu pedido agora mesmo!</h2>
         <div className="contact-wrapper">
-          <ContactCard />
+          {contactTypes.map((contact, index) => {
+            return <ContactCard key={index} contactType={contact} />;
+          })}
         </div>
       </div>
-      <div className="contact-mock">
+      {/* <div className="contact-mock">
         Whatsapp MOCKUP
         <img src="" alt="" />
-      </div>
+      </div> */}
     </section>
   );
 };

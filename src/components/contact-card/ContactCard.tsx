@@ -1,17 +1,23 @@
 import { TbBrandWhatsapp } from "react-icons/tb";
 import "./ContactCard.scss";
+import { ContactType } from "../../types/ContactType";
 
-const ContactCard = () => {
+interface ContactCardProps {
+  contactType: ContactType;
+}
+
+const ContactCard = ({ contactType }: ContactCardProps) => {
+  const { title, bgImage, buttonText, description, phone } = contactType;
   return (
     <div className="contact-card">
-      <h3>Para suas prateleiras</h3>
-      <p>Entre em contato com nossos representantes através do número </p>
-      <p>+55 11 96421-0040</p>
+      <h3>{title}</h3>
+      <p>{description}</p>
+      <p>{phone}</p>
       <p>ou</p>
       {/* <p>clique no botão abaixo para abrir o whatsapp web</p> */}
       <button>
         <TbBrandWhatsapp />
-        Pessoa Jurídica
+        {buttonText}
       </button>
     </div>
   );
