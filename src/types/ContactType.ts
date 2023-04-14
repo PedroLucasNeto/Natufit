@@ -3,5 +3,5 @@ export interface ContactType {
   description: string;
   phone: string;
   buttonText: string;
-  bgImage: string;
+  whatsappLink: string;
 }

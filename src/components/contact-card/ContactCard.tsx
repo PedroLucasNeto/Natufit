@@ -7,7 +7,7 @@ interface ContactCardProps {
 }
 
 const ContactCard = ({ contactType }: ContactCardProps) => {
-  const { title, bgImage, buttonText, description, phone } = contactType;
+  const { title, whatsappLink, buttonText, description, phone } = contactType;
   return (
     <div className="contact-card">
       <h3>{title}</h3>
@@ -15,9 +15,7 @@ const ContactCard = ({ contactType }: ContactCardProps) => {
       <span>{phone}</span>
       <p>ou</p>
       {/* <p>clique no botão abaixo para abrir o whatsapp web</p> */}
-      <a
-        href="https://wa.me/83991531661?text=Olá!%20Tenho%20interesse%20nos%20produtos%20natufit!%20"
-        target="_blank">
+      <a href={`${whatsappLink}`} target="_blank">
         <TbBrandWhatsapp />
         {buttonText}
       </a>
