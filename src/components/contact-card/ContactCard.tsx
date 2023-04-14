@@ -12,7 +12,7 @@ const ContactCard = ({ contactType }: ContactCardProps) => {
     <div className="contact-card">
       <h3>{title}</h3>
       <p>{description}</p>
-      <p>{phone}</p>
+      <span>{phone}</span>
       <p>ou</p>
       {/* <p>clique no botão abaixo para abrir o whatsapp web</p> */}
       <button>

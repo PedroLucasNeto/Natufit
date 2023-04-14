@@ -14,16 +14,27 @@
   gap: 1rem;
   padding: 1rem;
 
+  min-height: 23rem;
   width: 100%;
+
+  // margin-top: ;
 
   > h3 {
     font-size: 2rem;
-    color: color.$green-800;
+    color: color.$green-400;
   }
 
   > p {
     font-size: 1.3rem;
-    color: color.$green-800;
+    color: color.$green-50;
+
+    width: 80%;
+  }
+
+  > span {
+    font-size: 1.3rem;
+    color: color.$green-50;
+    text-decoration: underline;
   }
 
   > button {
@@ -44,6 +55,15 @@
       background-color: color.$green-50;
       color: color.$green-400;
       border: 1px solid color.$green-400;
+    }
+  }
+}
+
+@include lg {
+  .contact-card {
+    max-width: 35rem;
+    > h3 {
+      font-size: 3rem;
     }
   }
 }
