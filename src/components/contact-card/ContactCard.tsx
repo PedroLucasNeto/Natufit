@@ -15,10 +15,13 @@ const ContactCard = ({ contactType }: ContactCardProps) => {
       <span>{phone}</span>
       <p>ou</p>
       {/* <p>clique no botão abaixo para abrir o whatsapp web</p> */}
-      <button>
+
+      <a
+        href="https://wa.me/83991531661?text=Olá!%20Tenho%20interesse%20nos%20produtos%20natufit!%20"
+        target="_blank">
         <TbBrandWhatsapp />
         {buttonText}
-      </button>
+      </a>
     </div>
   );
 };

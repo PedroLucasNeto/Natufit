@@ -53,13 +53,12 @@ const ProductCard = ({ product }: ProductCardProps) => {
           " "
         )}
       </div>
-      <button className="buy-now">
-        <a
-          href="https://wa.me/83991531661?text=Olá!%20Tenho%20interesse%20nos%20produtos%20natufit!%20"
-          target="_blank">
-          Compre Agora
-        </a>
-      </button>
+
+      <a
+        href="https://wa.me/83991531661?text=Olá!%20Tenho%20interesse%20nos%20produtos%20natufit!%20"
+        target="_blank">
+        Compre Agora
+      </a>
     </div>
   );
 };

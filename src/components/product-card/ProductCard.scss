@@ -7,7 +7,7 @@
   justify-content: space-between;
 
   width: 15rem;
-  min-height: 22rem;
+  min-height: 25rem;
 
   border-radius: 0.1rem;
   border: thin 1px color.$green-700;
@@ -15,6 +15,24 @@
   background-color: color.$green-50;
 
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+
+  > a {
+    text-align: center;
+    width: 100%;
+    gap: 0.3rem;
+
+    padding: 0.7rem;
+
+    background-color: color.$green-400;
+    color: color.$green-50;
+    border: 1px solid color.$green-400;
+
+    &:hover {
+      background-color: color.$green-50;
+      color: color.$green-400;
+      border: 1px solid color.$green-400;
+    }
+  }
 
   &:hover {
     transform: scale(1.1);
@@ -92,28 +110,4 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.buy-now {
-  background-color: color.$green-400;
-
-  border: 1px solid color.$green-400;
-  padding: 0.5rem;
-
-  > a {
-    color: color.$green-50;
-
-    &:visited {
-      color: color.$green-50;
-    }
-  }
-
-  &:hover {
-    > a {
-      color: color.$green-400;
-    }
-    background-color: color.$green-50;
-    color: color.$green-400;
-    border: 1px solid color.$green-400;
-  }
 }
