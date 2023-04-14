@@ -12,6 +12,7 @@
 
 .banner {
   > img {
+    height: 24rem;
     width: 100%;
     display: block;
     object-fit: cover;
@@ -76,7 +77,9 @@
   }
 
   .banner {
-    height: 20rem;
+    > img {
+      height: 20rem;
+    }
   }
   .text-div {
     height: 20rem;
@@ -104,6 +107,11 @@
 }
 
 @include lg {
+  .banner {
+    > img {
+      height: 30rem;
+    }
+  }
   .text-div {
     padding-left: 5rem;
     height: 30rem;
