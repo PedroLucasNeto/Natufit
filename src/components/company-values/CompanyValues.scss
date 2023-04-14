@@ -36,7 +36,7 @@
   gap: 1rem;
 
   background-color: color.$green-50;
-  background-image: url("./assets/products-doodle.png");
+  background-image: url("/assets/products-doodle.png");
   background-blend-mode: darken;
   background-attachment: fixed;
   background-size: cover;
@@ -80,18 +80,7 @@
   }
 }
 
-@include sm {
-  // .value-card {
-  // }
-  // .values-section {
-  // }
-  // .values-wrapper {
-  // }
-}
-
 @include lg {
-  // .value-card {
-  // }
   .values-section {
     > h1 {
       font-size: 3rem;
@@ -103,10 +92,6 @@
 }
 
 @include xl {
-  // .value-card {
-  // }
-  // .values-section {
-  // }
   .values-wrapper {
     background-size: 50%;
   }
