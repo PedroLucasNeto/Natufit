@@ -28,6 +28,8 @@
     font-size: 1.3rem;
     color: color.$green-50;
 
+    letter-spacing: 1px;
+
     width: 80%;
   }
 
@@ -35,6 +37,8 @@
     font-size: 1.3rem;
     color: color.$green-50;
     text-decoration: underline;
+
+    letter-spacing: 2px;
   }
 
   > button {
@@ -64,6 +68,9 @@
     max-width: 35rem;
     > h3 {
       font-size: 3rem;
+    }
+    > p {
+      font-size: 1.4rem;
     }
   }
 }
