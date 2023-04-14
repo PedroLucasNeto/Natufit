@@ -18,7 +18,9 @@ const Pagination = ({ pages, setCurrentPage, currentPage }: ProductSectionProps)
                 : "pagination-button  "
             }
             key={index}
-            onClick={() => setCurrentPage(index)}>
+            onClick={() => (
+              setCurrentPage(index), window.scrollTo({ top: 0, behavior: "smooth" })
+            )}>
             {index + 1}
           </button>
         );
