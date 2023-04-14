@@ -14,7 +14,7 @@ const ProductSection = () => {
     product.name.toLowerCase().includes(lowerSearch)
   );
 
-  const [productsPerPage, setProductsPerPage] = useState(9);
+  const [productsPerPage, setProductsPerPage] = useState(8);
   const [currentPage, setCurrentPage] = useState(0);
 
   const pages = Math.ceil(filteredProducts.length / productsPerPage);
