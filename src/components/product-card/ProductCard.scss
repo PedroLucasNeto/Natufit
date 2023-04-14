@@ -96,11 +96,22 @@
 
 .buy-now {
   background-color: color.$green-400;
-  color: color.$green-50;
+
   border: 1px solid color.$green-400;
   padding: 0.5rem;
 
+  > a {
+    color: color.$green-50;
+
+    &:visited {
+      color: color.$green-50;
+    }
+  }
+
   &:hover {
+    > a {
+      color: color.$green-400;
+    }
     background-color: color.$green-50;
     color: color.$green-400;
     border: 1px solid color.$green-400;

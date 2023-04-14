@@ -53,7 +53,9 @@ const ProductCard = ({ product }: ProductCardProps) => {
           " "
         )}
       </div>
-      <button className="buy-now">Compre Agora</button>
+      <button className="buy-now">
+        <a href="">Compre Agora</a>
+      </button>
     </div>
   );
 };
