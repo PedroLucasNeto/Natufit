@@ -4,8 +4,8 @@ import "./AdvertisingProducts.scss";
 const AdvertisingProducts = () => {
   return (
     <>
-      <section className="ad-section">
-        <div className="ad-titles">
+      <section className="cta-section">
+        <div className="cta-titles">
           <h1>Conheça nossos Produtos</h1>
           <p>
             Não perca mais tempo sem experimentar nossos temperos. Peça agora e transforme

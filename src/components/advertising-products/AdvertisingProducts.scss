@@ -1,7 +1,7 @@
 @use "../../styles/colors" as color;
 @use "../../styles/breakpoints" as *;
 
-.ad-section {
+.cta-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,7 +38,7 @@
   }
 }
 
-.ad-titles {
+.cta-titles {
   padding: 1rem;
   max-width: 50rem;
   gap: 1rem;
@@ -57,7 +57,7 @@
 }
 
 @include md {
-  .ad-section {
+  .cta-section {
     > h1 {
       font-size: 3rem;
     }
