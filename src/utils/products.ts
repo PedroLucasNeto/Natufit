@@ -185,7 +185,7 @@ export const products = [
   {
     name: "Cebola, Alho e Salsa",
     price: 5.5,
-    picture: "/assets/products/cebola-alho-e-salsa.png",
+    picture: "/assets/products/cebola-alho-salsa.png",
     description:
       "O tempero cebola, alho e salsa é uma mistura de especiarias utilizada para dar sabor e aroma a uma grande variedade de pratos. Ele é composto por ingredientes como cebola desidratada, alho em pó e salsa desidratada. É um tempero bastante versátil, que pode ser utilizado em diversos tipos de pratos, como carnes, frangos, peixes, legumes, arroz e feijão. O tempero cebola, alho e salsa é conhecido por seu sabor delicioso e equilibrado, que ajuda a realçar o sabor dos alimentos. É uma excelente opção para quem busca praticidade e sabor em suas receitas.",
   },
@@ -234,7 +234,7 @@ export const products = [
   {
     name: "Louro",
     price: 5.5,
-    picture: "/assets/products/louro.png",
+    picture: "/assets/products/folha-de-louro.png",
     description:
       "A folha de louro é uma erva aromática muito utilizada na culinária para dar sabor e aroma a pratos salgados, como ensopados, sopas, molhos e marinadas. Ela é obtida a partir da árvore do louro, nativa da região do Mediterrâneo. A folha de louro é rica em nutrientes e compostos antioxidantes, como os flavonoides e os ácidos fenólicos, que podem ajudar a prevenir doenças e melhorar a saúde em geral. Além disso, ela possui propriedades anti-inflamatórias e antissépticas, que podem ajudar a aliviar sintomas de problemas respiratórios e digestivos. A folha de louro é muito versátil e pode ser utilizada tanto fresca quanto seca, conferindo um sabor e aroma únicos aos pratos.",
   },
@@ -269,14 +269,14 @@ export const products = [
   {
     name: "Linhaça Dourada",
     price: 5.5,
-    picture: "/assets/products/linhaça-dourada.png",
+    picture: "/assets/products/linhaca-dourada.png",
     description:
       "A linhaça dourada é uma semente oleaginosa muito valorizada por seus benefícios nutricionais. Ela é rica em ácidos graxos ômega-3, fibras, vitaminas e minerais. Além disso, contém lignanas, compostos fitoquímicos que possuem propriedades antioxidantes e anti-inflamatórias. A linhaça dourada é uma opção saudável para auxiliar na prevenção de doenças cardiovasculares, reduzir o colesterol, regular o intestino e melhorar a saúde da pele e dos cabelos. Ela pode ser consumida de diversas formas, como em preparações culinárias, adicionada a sucos e smoothies ou polvilhada sobre frutas e iogurtes. A linhaça dourada é uma excelente escolha para quem busca uma alimentação equilibrada e saudável.",
   },
   {
     name: "Linhaça Marrom",
     price: 5.5,
-    picture: "/assets/products/linhaça-marrom.png",
+    picture: "/assets/products/linhaca-marrom.png",
     description:
       "A linhaça marrom é uma semente oleaginosa rica em nutrientes, semelhante à linhaça dourada. Ela é fonte de ácidos graxos ômega-3, fibras, vitaminas e minerais, além de lignanas, compostos fitoquímicos com propriedades antioxidantes e anti-inflamatórias. Assim como a linhaça dourada, a linhaça marrom pode ajudar na prevenção de doenças cardiovasculares, na redução do colesterol, no bom funcionamento do intestino e na melhora da saúde da pele e dos cabelos. A linhaça marrom pode ser adicionada a receitas culinárias, sucos, vitaminas e outros alimentos saudáveis. Seu consumo regular pode ajudar a promover uma alimentação equilibrada e contribuir para a manutenção da saúde.",
   },
@@ -288,9 +288,9 @@ export const products = [
       "A spirulina é uma microalga azul-esverdeada com alta concentração de nutrientes, incluindo proteínas, vitaminas e minerais. É uma fonte importante de antioxidantes e ácidos graxos essenciais, que podem ajudar na proteção contra doenças e no fortalecimento do sistema imunológico. Além disso, a spirulina contém clorofila, que pode ajudar a desintoxicar o organismo. Ela pode ser consumida em cápsulas, pó ou adicionada a smoothies, sucos e outras receitas culinárias saudáveis. A spirulina é uma ótima opção para vegetarianos, veganos e pessoas que buscam uma alimentação mais saudável e equilibrada.",
   },
   {
-    name: "Sementes de Abóbora",
+    name: "Semente de Abóbora",
     price: 5.5,
-    picture: "/assets/products/sementes-de-abobora.png",
+    picture: "/assets/products/semente-de-abobora.png",
     description:
       "As sementes de abóbora são uma excelente fonte de nutrientes, incluindo proteínas, gorduras saudáveis, fibras, vitaminas e minerais, como zinco e magnésio. São conhecidas por ajudar na regulação do açúcar no sangue, melhorar a saúde do coração e reduzir a inflamação. Além disso, a semente de abóbora pode ajudar na saúde da próstata e na prevenção de certos tipos de câncer. Ela pode ser consumida crua, torrada, adicionada a saladas, sopas, smoothies e outras receitas culinárias saudáveis. As sementes de abóbora são uma ótima opção para vegetarianos, veganos e pessoas que buscam uma alimentação mais saudável e equilibrada.",
   },

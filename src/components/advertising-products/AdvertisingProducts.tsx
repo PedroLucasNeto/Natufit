@@ -13,7 +13,7 @@ const AdvertisingProducts = () => {
           </p>
         </div>
         <Link
-          to="/products/"
+          to="/products"
           role="button"
           onClick={() =>
             window.scrollTo({
