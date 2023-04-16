@@ -14,7 +14,8 @@
   justify-content: center;
 
   background-image: url("/assets/buying.jpg");
-  background-blend-mode: darken;
+  background-color: color.$gray-900;
+  background-blend-mode: overlay;
   background-size: cover;
   background-repeat: no-repeat;
 }
