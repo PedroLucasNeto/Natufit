@@ -275,28 +275,28 @@ export const products = [
   },
   {
     name: "Linhaça Marrom",
-    price: 5.5,
+    price: 5.0,
     picture: "/assets/products/linhaca-marrom.png",
     description:
       "A linhaça marrom é uma semente oleaginosa rica em nutrientes, semelhante à linhaça dourada. Ela é fonte de ácidos graxos ômega-3, fibras, vitaminas e minerais, além de lignanas, compostos fitoquímicos com propriedades antioxidantes e anti-inflamatórias. Assim como a linhaça dourada, a linhaça marrom pode ajudar na prevenção de doenças cardiovasculares, na redução do colesterol, no bom funcionamento do intestino e na melhora da saúde da pele e dos cabelos. A linhaça marrom pode ser adicionada a receitas culinárias, sucos, vitaminas e outros alimentos saudáveis. Seu consumo regular pode ajudar a promover uma alimentação equilibrada e contribuir para a manutenção da saúde.",
   },
   {
     name: "Spirulina",
-    price: 5.5,
+    price: 12.0,
     picture: "/assets/products/spirulina.png",
     description:
       "A spirulina é uma microalga azul-esverdeada com alta concentração de nutrientes, incluindo proteínas, vitaminas e minerais. É uma fonte importante de antioxidantes e ácidos graxos essenciais, que podem ajudar na proteção contra doenças e no fortalecimento do sistema imunológico. Além disso, a spirulina contém clorofila, que pode ajudar a desintoxicar o organismo. Ela pode ser consumida em cápsulas, pó ou adicionada a smoothies, sucos e outras receitas culinárias saudáveis. A spirulina é uma ótima opção para vegetarianos, veganos e pessoas que buscam uma alimentação mais saudável e equilibrada.",
   },
   {
     name: "Semente de Abóbora",
-    price: 5.5,
+    price: 8.7,
     picture: "/assets/products/semente-de-abobora.png",
     description:
       "As sementes de abóbora são uma excelente fonte de nutrientes, incluindo proteínas, gorduras saudáveis, fibras, vitaminas e minerais, como zinco e magnésio. São conhecidas por ajudar na regulação do açúcar no sangue, melhorar a saúde do coração e reduzir a inflamação. Além disso, a semente de abóbora pode ajudar na saúde da próstata e na prevenção de certos tipos de câncer. Ela pode ser consumida crua, torrada, adicionada a saladas, sopas, smoothies e outras receitas culinárias saudáveis. As sementes de abóbora são uma ótima opção para vegetarianos, veganos e pessoas que buscam uma alimentação mais saudável e equilibrada.",
   },
   {
     name: "Guaraná em Pó",
-    price: 5.5,
+    price: 6.2,
     picture: "/assets/products/guarana-em-po.png",
     description:
       "O guaraná em pó é um ingrediente natural derivado das sementes da planta de guaraná, nativa da Amazônia. Ele é conhecido por sua alta concentração de cafeína, o que o torna um estimulante natural do sistema nervoso central. O consumo do guaraná em pó pode ajudar a melhorar o foco, a concentração e a energia, além de proporcionar benefícios para a saúde, como reduzir a fadiga, melhorar a função cerebral e aumentar a queima de gordura. O guaraná em pó pode ser adicionado a bebidas, smoothies, receitas culinárias e suplementos nutricionais, mas deve ser consumido com moderação, pois o excesso de cafeína pode causar efeitos colaterais indesejados, como ansiedade, insônia e irritabilidade.",
