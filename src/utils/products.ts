@@ -22,14 +22,14 @@ export const products = [
   },
   {
     name: "Boldo do Chile",
-    price: 5.5,
+    price: 4.5,
     picture: "/assets/products/boldo-do-chile.png",
     description:
       "O Boldo do Chile é uma planta originária da América do Sul e é conhecida por suas propriedades medicinais. O chá de Boldo é popularmente usado para aliviar problemas digestivos, como azia, gases e indigestão, além de auxiliar na desintoxicação do fígado. A planta também é usada em produtos de beleza e cuidados pessoais, como xampus e cremes para cabelos oleosos. Adquira agora mesmo o Boldo do Chile de alta qualidade em nossa loja!",
   },
   {
     name: "Capim Santo",
-    price: 5.5,
+    price: 4.5,
     picture: "/assets/products/capim-santo.png",
     description:
       "O Capim Santo é uma planta herbácea comumente encontrada na América Latina e é conhecida por suas propriedades medicinais e culinárias. Suas folhas possuem um aroma cítrico e são utilizadas como tempero em diversas receitas, como chás, sucos, sopas e pratos de frango e peixe. Além disso, o Capim Santo é valorizado por suas propriedades medicinais, sendo utilizado para aliviar sintomas de ansiedade, estresse e problemas digestivos.",
@@ -43,7 +43,7 @@ export const products = [
   },
   {
     name: "Chá Verde",
-    price: 5.5,
+    price: 4.5,
     picture: "/assets/products/cha-verde.png",
     description:
       "O Chá Verde é uma bebida popular em todo o mundo, conhecida por seus benefícios à saúde. Ele é feito a partir das folhas da planta Camellia sinensis, que é rica em antioxidantes e outros compostos benéficos para o organismo. O Chá Verde pode ajudar na redução do risco de doenças cardiovasculares, fortalecimento do sistema imunológico, melhora da função cerebral, redução do estresse e ansiedade.",
@@ -226,35 +226,35 @@ export const products = [
   },
   {
     name: "Canela em Pó",
-    price: 5.5,
+    price: 6.2,
     picture: "/assets/products/canela-em-po.png",
     description:
       "A canela em pó é um tempero muito utilizado na culinária para dar sabor e aroma a pratos doces e salgados. Ela é feita a partir da casca interna seca da árvore de canela, que é moída em pó. A canela em pó é conhecida por seu sabor doce e levemente picante, e é frequentemente utilizada em sobremesas, como bolos, tortas, pudins, mas também pode ser utilizada em pratos salgados, como carnes e molhos. Além disso, a canela em pó possui propriedades antioxidantes e anti-inflamatórias, que podem trazer benefícios à saúde. É um tempero muito versátil e pode conferir um sabor único e especial aos pratos.",
   },
   {
     name: "Louro",
-    price: 5.5,
+    price: 4.5,
     picture: "/assets/products/folha-de-louro.png",
     description:
       "A folha de louro é uma erva aromática muito utilizada na culinária para dar sabor e aroma a pratos salgados, como ensopados, sopas, molhos e marinadas. Ela é obtida a partir da árvore do louro, nativa da região do Mediterrâneo. A folha de louro é rica em nutrientes e compostos antioxidantes, como os flavonoides e os ácidos fenólicos, que podem ajudar a prevenir doenças e melhorar a saúde em geral. Além disso, ela possui propriedades anti-inflamatórias e antissépticas, que podem ajudar a aliviar sintomas de problemas respiratórios e digestivos. A folha de louro é muito versátil e pode ser utilizada tanto fresca quanto seca, conferindo um sabor e aroma únicos aos pratos.",
   },
   {
     name: "Camomila",
-    price: 5.5,
+    price: 4.5,
     picture: "/assets/products/camomila.png",
     description:
       "A camomila é uma planta medicinal conhecida por suas propriedades calmantes e relaxantes. Ela é nativa da Europa e da Ásia, e suas flores são utilizadas para fazer chás, infusões e extratos medicinais. A camomila é rica em compostos anti-inflamatórios e antioxidantes, como a apigenina e a quercetina, que podem ajudar a aliviar sintomas de ansiedade, estresse, insônia e dores de cabeça. Além disso, ela também pode ser utilizada para aliviar sintomas de problemas gastrointestinais, como cólicas, gases e diarreia. A camomila é uma opção natural e segura para quem busca relaxamento e bem-estar, e pode ser consumida tanto quente quanto fria.",
   },
   {
     name: "Alecrim",
-    price: 5.5,
+    price: 5.0,
     picture: "/assets/products/alecrim.png",
     description:
       "O alecrim é uma erva aromática originária do Mediterrâneo, muito utilizada na culinária para dar sabor e aroma a diversos pratos, como carnes, legumes, pães e molhos. Além de seu uso culinário, o alecrim também é valorizado por suas propriedades medicinais, que incluem ação anti-inflamatória, antioxidante, antisséptica e estimulante do sistema nervoso. Ele é rico em compostos como o ácido rosmarínico, que ajuda a reduzir inflamações e prevenir danos celulares causados pelos radicais livres. Além disso, o alecrim também pode ajudar a melhorar a memória, a concentração e o humor, sendo uma opção natural para quem busca aumentar o bem-estar físico e mental.",
   },
   {
     name: "Hortelã",
-    price: 5.5,
+    price: 5.0,
     picture: "/assets/products/hortela.png",
     description:
       "A hortelã é uma erva aromática muito utilizada na culinária e também valorizada por suas propriedades medicinais. Ela é conhecida por seu sabor refrescante e mentolado, que pode ser utilizado para dar sabor a chás, sobremesas, saladas e outros pratos. Além de seu uso culinário, o hortelã também é valorizado por suas propriedades digestivas, antiespasmódicas e analgésicas. Ela pode ajudar a aliviar sintomas de náuseas, vômitos, dores abdominais, cólicas menstruais e dores de cabeça. Além disso, o hortelã também pode ajudar a melhorar a respiração e a aliviar sintomas de alergias respiratórias, como a congestão nasal. O hortelã é uma opção natural e versátil para quem busca melhorar a saúde e o bem-estar.",
