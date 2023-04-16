@@ -15,7 +15,7 @@ export const products = [
   },
   {
     name: "Bicarbonato de Sódio",
-    price: 4.5,
+    price: 5.0,
     picture: "/assets/products/bicarbonato-de-sodio.png",
     description:
       "O bicarbonato de sódio é um composto químico versátil com muitas aplicações na culinária e produtos de limpeza. É um agente fermentador usado em receitas de pães e bolos, e um ingrediente comum em produtos de limpeza devido às suas propriedades de neutralização de odores e capacidade de limpeza profunda. Disponível em nossa loja em alta qualidade.",
@@ -268,7 +268,7 @@ export const products = [
   },
   {
     name: "Linhaça Dourada",
-    price: 5.5,
+    price: 5.0,
     picture: "/assets/products/linhaca-dourada.png",
     description:
       "A linhaça dourada é uma semente oleaginosa muito valorizada por seus benefícios nutricionais. Ela é rica em ácidos graxos ômega-3, fibras, vitaminas e minerais. Além disso, contém lignanas, compostos fitoquímicos que possuem propriedades antioxidantes e anti-inflamatórias. A linhaça dourada é uma opção saudável para auxiliar na prevenção de doenças cardiovasculares, reduzir o colesterol, regular o intestino e melhorar a saúde da pele e dos cabelos. Ela pode ser consumida de diversas formas, como em preparações culinárias, adicionada a sucos e smoothies ou polvilhada sobre frutas e iogurtes. A linhaça dourada é uma excelente escolha para quem busca uma alimentação equilibrada e saudável.",
@@ -303,35 +303,35 @@ export const products = [
   },
   {
     name: "Maca Peruana",
-    price: 5.5,
+    price: 9.0,
     picture: "/assets/products/maca-peruana.png",
     description:
       "A Maca Peruana é uma planta nativa do Peru, também conhecida como 'ginseng dos Andes'. É uma raiz comestível, rica em nutrientes como carboidratos, proteínas, fibras, vitaminas e minerais, além de compostos bioativos como alcaloides e glucosinolatos. A maca peruana é frequentemente utilizada como um superalimento que pode melhorar a saúde e o desempenho físico e mental. Alguns dos benefícios associados à sua ingestão incluem: aumento da energia, melhoria da libido, equilíbrio hormonal, redução do estresse e melhoria da função cognitiva. A maca peruana pode ser encontrada em pó, cápsulas ou extratos, e pode ser consumida em receitas culinárias ou como suplemento nutricional.",
   },
   {
     name: "Gengibre em Pó",
-    price: 5.5,
+    price: 5.6,
     picture: "/assets/products/gengibre-em-po.png",
     description:
       "O gengibre em pó é uma especiaria produzida a partir da raiz do gengibre, que é seca e moída em um pó fino. É amplamente utilizado na culinária como tempero em pratos salgados e doces, além de ser um ingrediente popular em receitas de chás e remédios caseiros. O gengibre em pó tem propriedades anti-inflamatórias, antioxidantes e digestivas, além de ser conhecido por ajudar a reduzir náuseas e dores de cabeça. É uma opção prática e versátil para adicionar sabor e benefícios à sua dieta.",
   },
   {
     name: "Gergelim Branco",
-    price: 5.5,
+    price: 6.0,
     picture: "/assets/products/gergelim-branco.png",
     description:
       "O gergelim branco é uma semente pequena e achatada, com coloração branca ou creme, que pode ser consumida crua ou torrada. É rico em nutrientes como cálcio, ferro, magnésio e fibras. Além disso, é uma fonte de gorduras saudáveis, como os ácidos graxos ômega-6 e ômega-9. É utilizado na culinária para dar sabor e textura a uma variedade de pratos, incluindo saladas, pães e biscoitos.",
   },
   {
     name: "Gergelim Preto",
-    price: 5.5,
+    price: 6.2,
     picture: "/assets/products/gergelim-preto.png",
     description:
       "O gergelim preto é uma semente oleaginosa e nutritiva, originária da Índia e amplamente utilizada na culinária asiática. Além de seu sabor levemente amargo e textura crocante, o gergelim preto também é conhecido por seus benefícios à saúde, como a presença de antioxidantes, fibras e minerais, incluindo cálcio e ferro. O gergelim preto é frequentemente utilizado para adicionar sabor e textura a pratos como saladas, sopas, arroz e pães, além de ser um ingrediente popular em pastas de gergelim como o tahine.",
   },
   {
     name: "Cravo",
-    price: 5.5,
+    price: 7.0,
     picture: "/assets/products/cravo.png",
     description:
       "O cravo é uma especiaria conhecida por seu sabor picante e aroma marcante. Ele é comumente utilizado em receitas doces, como em bolos e pudins, mas também pode ser usado em pratos salgados, como carnes e molhos. Além do sabor e aroma, o cravo também é valorizado por suas propriedades medicinais, sendo utilizado para aliviar dores de dente, reduzir a inflamação e tratar problemas respiratórios.",
