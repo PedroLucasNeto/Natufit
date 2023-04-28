@@ -130,14 +130,6 @@ export const products = [
     price: 5.5,
     picture: "/assets/products/tempero-baiano.png",
     description:
-      "O Tempero Baiano é uma mistura de especiarias típica da culinária baiana, no Nordeste do Brasil. Ele é composto por uma variedade de ingredientes como pimenta do reino, coentro, cominho, páprica doce, açafrão-da-terra, entre outros, e é utilizado para temperar frutos do mar, peixes, carnes, aves e legumes. O Tempero Baiano confere aos pratos um sabor marcante, picante e aromático, característico da culinária baiana.",
-  },
-
-  {
-    name: "Tempero Baiano",
-    price: 5.5,
-    picture: "/assets/products/tempero-baiano.png",
-    description:
       "A páprica doce é um tempero em pó feito a partir de pimentões vermelhos secos e moídos. É um ingrediente comum na culinária húngara e espanhola, e tem um sabor suave e levemente adocicado. A páprica doce é frequentemente usada para adicionar cor e sabor a pratos como sopas, ensopados, carnes, frango e frutos do mar. É uma excelente opção para quem prefere sabores mais suaves e adocicados em suas receitas.",
   },
   {
